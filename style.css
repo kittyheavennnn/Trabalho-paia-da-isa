@@ -44,3 +44,6 @@ body{
 img{
     width: 20%;
 }
+header{
+    display: flex;
+}
