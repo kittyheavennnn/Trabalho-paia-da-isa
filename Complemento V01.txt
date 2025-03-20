@@ -1,0 +1,37 @@
+Mudanças para fazer no HTML
+  Para adicionar uma nova fonte, que não está no fonte-family podemos acessar:
+  https://fonts.google.com/
+  
+  Adicionado, por exemplo a fonte Grechen Fuemen com código HTML, adicionaremos no <head>:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap" rel="stylesheet">
+
+Para o CSS basta apenas:
+
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+Mudunças para fazer aos poucos no CSS, para tentar entender o que é alterado a cada comando adicionado.
+Focaremos nas classes .apresentacao e .apresentacao__conteudo
+
+Flexbox irá organizar elementos dentro de um conteiner em linha, para mudar sua direção para coluna é necessário o flex-direction.
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flex-direction
+Como usar margin e padding:
+https://www.devmedia.com.br/como-usar-as-propriedades-margin-e-padding-css/24409
+gap dará o espaçamento entre elementos filhos da classe, no caso título, parágrafo e botões.
+
+.apresentacao{
+    margin: ;
+    display: flex;
+    align-items: ;
+    justify-content: ;
+}
+.apresentacao__conteudo{
+    width:;
+    display:;
+    flex-direction:;
+    gap: ;
+}
+
+
