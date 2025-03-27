@@ -6,7 +6,35 @@
     padding: 0;
 }
 
-body{
+
+header{
+    display: flex;
+    width: 20;
+    background-color: #f59330;
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
+}
+
+.menu-disciplina{
+    width: 20%;
+    display: inline-block;
+} 
+.botão-disciplinas{
+cursor: pointer;
+font-size: 2rem;
+background: none;
+background-color: #ffebbf;
+border: none;
+padding: 1.05rem 1.5rem;
+color: #ffebbf;
+}
+#menu-toggle {
+    display: none;
+}
+    
+
+    body{
     height: 100%;
     box-sizing: border-box;
     background-color: #ffebbf;
@@ -44,30 +72,4 @@ body{
 
 img{
     width: 10%;
-}
-
-header{
-    display: flex;
-    width: 20;
-    background-color: #f59330;
-    padding: 1rem;
-    position: relative;
-    justify-content: center;
-}
-
-.menu-disciplina{
-    width: 20%;
-    display: inline-block;
-} 
-.botão-disciplinas{
-cursor: pointer;
-font-size: 2rem;
-background: none;
-background-color: #ffebbf;
-border: none;
-padding: 1.05rem 1.5rem;
-color: #ffebbf;
-}
-#menu-toggle {
-    display: none;
 }
