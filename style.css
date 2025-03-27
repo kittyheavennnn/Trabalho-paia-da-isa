@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
 
 
-*{
-    margin: 20px;
-    padding: 0;
-}
+
 
 
 header{
@@ -15,7 +12,16 @@ header{
     padding-right: 1rem;
     position: relative;
     justify-content: center;
-}
+
+    *{
+        margin: 20px;
+        padding: 0;
+    }
+
+    img{
+        width: 10%;
+    }
+    
 .titulo-destaque{
     color:  #f59330;
 }
@@ -48,6 +54,7 @@ color: #ffebbf;
         left: 1rem;
         top: 100%;
     }
+    
 
     body{
     height: 100%;
@@ -83,6 +90,4 @@ color: #ffebbf;
    
 }
 
-img{
-    width: 10%;
-}
+
