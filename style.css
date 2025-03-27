@@ -7,7 +7,7 @@
 }
 
 body{
-    height: 100vh;
+    height: 100%;
     box-sizing: border-box;
     background-color: #ffebbf;
     color:#b22148;
@@ -55,4 +55,7 @@ header{
     justify-content: center;
 }
 
-.menu-disciplina 
+.menu-disciplina{
+    width: 20%;
+    display: inline-block;
+} 
