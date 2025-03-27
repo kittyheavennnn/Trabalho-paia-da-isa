@@ -59,3 +59,12 @@ header{
     width: 20%;
     display: inline-block;
 } 
+.botão-disciplinas{
+cursor: pointer;
+font-size: 2rem;
+background: none;
+background-color: #ffebbf;
+border: none;
+padding: 1.05rem 1.5rem;
+color: #ffebbf;
+}
