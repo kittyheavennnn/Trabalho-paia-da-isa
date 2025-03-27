@@ -46,4 +46,9 @@ img{
 }
 header{
     display: flex;
+    width: 100%;
+    background-color: #f59330;
+    padding: 1rem;
+    position: relative;
+    justify-content: center;
 }
