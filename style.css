@@ -68,3 +68,6 @@ border: none;
 padding: 1.05rem 1.5rem;
 color: #ffebbf;
 }
+#menu-toggle {
+    display: none;
+}
