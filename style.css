@@ -20,6 +20,7 @@ header{
     width: 20%;
     display: inline-block;
 } 
+
 .botão-disciplinas{
 cursor: pointer;
 font-size: 2rem;
@@ -29,10 +30,21 @@ border: none;
 padding: 1.05rem 1.5rem;
 color: #ffebbf;
 }
+
 #menu-toggle {
     display: none;
 }
-    
+
+    .lista-vertical{
+        display: none;
+        position: absolute;
+        background-color: #ffebbf;
+        box-shadow: 0 2px 5px #f59330;
+        min-width: 190px;
+        z-index: 1;
+        left: 1rem;
+        top: 100%;
+    }
 
     body{
     height: 100%;
