@@ -8,7 +8,6 @@ header{
    display: flex;
     width:20;
     backgrond-color: #ffebbf;
-    margin: 20;
     padding: 1rem;
     position: relative;
     justify-content: center;
@@ -25,7 +24,7 @@ header{
         background: none;
         background-color: #ffebbf;
         border: none;
-        padding: 1.05rem 1.5rem;
+        padding: 0.7s5rem 1.5rem;
         color: #ffebbf;
         }
     
