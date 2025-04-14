@@ -18,39 +18,54 @@ header{
         display: inline-block;
     } 
 
-    img{
-        width: 10%;
-    }
-    
-.titulo-destaque{
-    color:  #f59330;
-}
-
-
-.botão-disciplinas{
-cursor: pointer;
-font-size: 2rem;
-background: none;
-background-color: #ffebbf;
-border: none;
-padding: 1.05rem 1.5rem;
-color: #ffebbf;
-}
-
-#menu-toggle {
-    display: none;
-}
-
-    .lista-vertical{
-        display: none;
-        position: absolute;
+    .botão-disciplinas{
+        cursor: pointer;
+        font-size: 2rem;
+        background: none;
         background-color: #ffebbf;
-        box-shadow: 0 2px 5px #f59330;
-        min-width: 190px;
-        z-index: 1;
-        left: 1rem;
-        top: 100%;
-    }
+        border: none;
+        padding: 1.05rem 1.5rem;
+        color: #ffebbf;
+        }
+    
+        #menu-toggle {
+            display: none;
+        }
+
+        .lista-vertical{
+            display: none;
+            position: absolute;
+            background-color: #ffebbf;
+            box-shadow: 0 2px 5px #f59330;
+            min-width: 190px;
+            z-index: 1;
+            left: 1rem;
+            top: 100%;
+        }
+
+    .lista-vertical a {
+   color: aliceblue;
+   padding:0,75rem 1rem;
+   text-decoration: none;
+   font-size:  2rem;
+   display:block;
+   text-align:center;
+     }
+
+
+
+
+
+    .img{
+    width: 10%;
+}
+
+
+
+
+
+
+    
     
 
     body{
