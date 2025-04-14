@@ -11,6 +11,9 @@ header{
     padding: 1rem;
     position: relative;
     justify-content: center;
+    .img{
+        width: 10%;
+    }sr
 }
 
     .menu-disciplina{
@@ -51,10 +54,6 @@ header{
    display:block;
    text-align:center;
      }
-
-    .img{
-    width: 10%;
-}
 
   body{
     height: 100%;
