@@ -5,16 +5,16 @@
 }
 
 :root{
-    --preto: #000000;
+    --ciano: #58c4b5;
     --marinho: #493D9E;
-    --amarelo-claro:#FFF2AF;
+    --amarelo-claro:#e4e1d6;
     --roxo-claro:#B2A5FF;
 }
 
 body{
     height: 100vh;
     box-sizing: border-box;
-    background-color: var(--preto);
+    background-color: var(--ciano);
     color: var(--amarelo-claro);
     font-size: 16px;
 }
@@ -75,7 +75,7 @@ header {
 }
 
 .lista-vertical a {
-    color: var(--preto);
+    color: var(--ciano);
     padding: 0.75rem 1rem;
     text-decoration: none;
     font-size: 2rem;
@@ -90,7 +90,7 @@ header {
     display: block;
 }
 #menu-toggle:checked + .botao-disciplinas {
-    background-color: var(--preto);
+    background-color: var(--ciano);
 }
 
 .barra-pesquisa {
@@ -126,7 +126,7 @@ a {
 }
 
 a:hover {
-    color: var(--preto);
+    color: var(--ciano);
 }
 
 
