@@ -1,65 +1,132 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+:root{
+    --preto: #000000;
+    --marinho: #493D9E;
+    --amarelo-claro:#FFF2AF;
+    --roxo-claro:#B2A5FF;
+}
 
-
-
-
-header{
-   display: flex;
-    width:20;
-    backgrond-color: #ffebbf;
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--preto);
+    color: var(--amarelo-claro);
+    font-size: 16px;
+}
+main{
+    left:0;
+    top:0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: var(--roxo-claro);
+    font-size: 4rem;
+}
+h4{
+    font-size: 2.5rem;
+}
+header {
+    display: flex; 
+    width: 100%;
+    background-color: var(--marinho);
     padding: 1rem;
     position: relative;
     justify-content: center;
-    .img{
-        width: 10%;
-    }sr
 }
 
-    .menu-disciplina{
-        width: 20%;
-        display: inline-block;
-    } 
 
-    .botão-disciplinas{
-        cursor: pointer;
-        font-size: 2rem;
-        background: none;
-        background-color: #ffebbf;
-        border: none;
-        padding: 0.7s5rem 1.5rem;
-        color: #ffebbf;
-        }
-    
-        #menu-toggle {
-            display: none;
-        }
+.menu-disciplina {
+    width: 20%;
+    display: inline-block; 
+}
 
-        .lista-vertical{
-            display: none;
-            position: absolute;
-            background-color: #ffebbf;
-            box-shadow: 0 2px 5px #f59330;
-            min-width: 190px;
-            z-index: 1;
-            left: 1rem;
-            top: 100%;
-        }
+.botao-disciplinas {
+    cursor: pointer;
+    font-size: 2rem;
+    background: none;
+    background-color: var(--amarelo-claro);
+    border: none;
+    padding: 1.05rem 1.5rem;
+    color: var(--roxo-claro);
+}
 
-    .lista-vertical a {
-   color: aliceblue;
-   padding:0,75rem 1rem;
-   text-decoration: none;
-   font-size:  2rem;
-   display:block;
-   text-align:center;
-     }
+#menu-toggle {
+    display: none;
+}
+.lista-vertical {
+    display: none;
+    position: absolute;
+    background-color: var(--roxo-claro);
+    box-shadow: 0 2px 5px var(--marinho);
+    min-width: 190px;
+    z-index: 1;
+    left: 1rem;
+    top:100%;
+}
 
-  body{
-    height: 100%;
-    box-sizing: border-box;
-    background-color: #ffebbf;
-    color:#b22148;
+.lista-vertical a {
+    color: var(--preto);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+}
+.lista-vertical a:hover {
+    background-color: var(--amarelo-claro);
+}
+
+#menu-toggle:checked ~ .lista-vertical {
+    display: block;
+}
+#menu-toggle:checked + .botao-disciplinas {
+    background-color: var(--preto);
+}
+
+.barra-pesquisa {
+    width: 50%;
+}
+
+.barra-pesquisa input {
+    width: 60%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+
+.links-principais {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+
+.lista-horizontal {
+    list-style: none;
+    display: flex;
+    font-size: 2rem;
+    gap: 4rem; 
+}
+
+
+a {
+    text-decoration: none;
+    color: var(--amarelo-claro);
+}
+
+a:hover {
+    color: var(--preto);
 }
 
 
